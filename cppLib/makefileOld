@@ -1,0 +1,4 @@
+LIB_NAME = library.so
+
+library:
+	g++ -shared -fPIC rary.cpp -o library.so
